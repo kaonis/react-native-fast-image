@@ -14,7 +14,7 @@ import com.facebook.react.views.imagehelper.ImageSource;
 
 class FastImageViewModule extends ReactContextBaseJavaModule {
 
-    private static final String REACT_CLASS = "FastImageView";
+    private static final String REACT_CLASS = "FastImagePreloaderManager";
     private int preloaders = 0;
 
     FastImageViewModule(ReactApplicationContext reactContext) {
