@@ -1,5 +1,5 @@
 import { NativeEventEmitter, NativeModules } from 'react-native'
-const nativeManager = NativeModules.FastImagePreloaderManager
+const nativeManager = NativeModules.FastImagePreloaderModule
 const nativeEmitter = new NativeEventEmitter(nativeManager)
 
 class PreloaderManager {
