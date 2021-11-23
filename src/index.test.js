@@ -3,8 +3,6 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 import FastImage from './index.js'
 
-jest.mock('NativeEventEmitter')
-
 const style = StyleSheet.create({ image: { width: 44, height: 44 } })
 
 test('FastImage renders correctly.', () => {
